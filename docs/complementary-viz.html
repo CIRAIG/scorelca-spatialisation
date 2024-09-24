@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spatialisation des impacts en ACV</title>
+    
+    <!-- Bootstrap CSS (Google-hosted) -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Google Fonts: Material Icons and Roboto -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="./assets/css/styles.css" rel="stylesheet">
+
+    <!-- Navbar and Footer JS -->
+    <script src="./assets/js/navbar.js"></script>
+    <script src="./assets/js/footer.js"></script>
+
+    <!-- jQuery (Google-hosted) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" defer></script>
+
+    <!-- Popper.js (from Bootstrap) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js" defer></script>
+
+    <!-- Bootstrap JS (Google-hosted) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js" defer></script>
+
+    <!-- Font Awesome (hosted by cdnjs, not available on Google CDN) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js" defer></script>
+</head>
+<body>
+    <div id="navbar"></div>
+    <div class="container mt-5">
+        <!-- Page Header -->
+        <header>
+            <h1>Visualisations complémentaires</h1>
+            <p>Cette section propose des visualisations supplémentaires conçues pour améliorer la compréhension et la présentation des résultats, en intégrant des aspects spatiaux.</p>
+            <p>Les figures interactives présentées dans cette section mettent en évidence les résultats de la spatialisation des impacts sur la biodiversité liés à l'occupation des terres [m² d'équivalent de terre arable par an] (occupation des terres, biodiversité), calculés à l'aide de la méthode d'ÉICV <a href="https://www.impactworldplus.org/" target="_blank">IMPACT World+ 2.0.1</a> Midpoint.</p>
+        </header>
+
+        <!-- Sankey Section -->
+        <section id="sankey" class="mb-5">
+            <h2>Diagramme de Sankey</h2>
+            <p><span class="material-symbols-outlined">info</span>Survolez les éléments du diagramme de Sankey avec votre souris pour afficher les résultats.</p>
+            <iframe src="./assets/figures/sankey_iwp_mid_land_occupation_biodiversity_rg1_sceRegio.html" width="100%" height="650px"></iframe>
+        </section>
+
+        <!-- Choropleth Section -->
+        <section id="choropleth" class="mb-5">
+            <h2>Répartition géographique de l’origine des impacts</h2>
+            <p class="justify-content-center align-items-center"><span class="material-symbols-outlined">info</span>Survolez les éléments de la carte avec votre souris pour afficher les résultats.</p>
+            <p><span class="material-symbols-outlined">zoom_in</span>Vous pouvez utiliser la molette de la souris pour modifier le niveau de zoom.</p>
+            <iframe src="./assets/figures/choropleth_iwp_mid_land_occupation_biodiversity_rg1_sceRegio.html" width="100%" height="500px"></iframe>
+        </section>
+
+        <!-- Treemap Section -->
+        <section id="treemap" class="mb-5">
+            <h2>Treemap des impacts</h2>
+            <p><span class="material-symbols-outlined">ads_click</span>Cliquez sur chaque élément de la figure pour afficher plus de détails.</p>
+            <p><span class="material-symbols-outlined">east</span>Utilisez les flèches situées sous le titre de la figure pour revenir à un niveau inférieur dans la hiérarchie.</p>          
+            <iframe src="./assets/figures/treemap_iwp_mid_land_occupation_biodiversity_rg1_sceRegio.html" width="100%" height="600px"></iframe>
+        </section>
+    </div>
+    <!-- Footer Placeholder -->
+    <div id="footer"></div>
+</body>
+</html>

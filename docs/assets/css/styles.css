@@ -1,0 +1,298 @@
+body {
+    background-color: #ffffff; /* White background */
+}
+
+.navbar {
+    background-color: #008C8C; /* Main color for the navbar */
+}
+
+h1 {
+    color: #008C8C; /* Main color for the main header */
+}
+
+h2 {
+    color: #008C8C; /* Main color for section headers */
+}
+
+p {
+    color: #333; /* Dark text for better readability */
+}
+
+a {
+    color: #008C8C;
+    font-weight: bold;
+}
+
+section {
+    margin-bottom: 30px; /* Spacing between sections */
+}
+
+iframe {
+    border: 0px solid #008C8C; /* Optional: border for iframes */
+}
+
+.author-list {
+    display: flex; /* Use flexbox for horizontal alignment */
+    align-items: center; /* Vertically center items */
+    margin-right: 20px; /* Space between author entries */
+}
+
+.container.mt-5 {
+    margin-top: 5rem !important;
+}
+
+
+html {
+    scroll-padding-top: 56px; /* Adjust according to your navbar height */
+}
+
+
+/*Index */
+
+/* Custom styles for header image */
+.header-img {
+    max-width: 150px;
+    margin-right: 20px;
+}
+
+/* Aligning text and image in the header */
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* General section styling */
+main {
+    background-color: #f9f9f9;
+    padding: 40px 20px;
+}
+
+section {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.05);
+    margin-bottom: 40px;
+}
+
+/* Welcome text styling */
+.lead {
+    color: #4a4a4a;
+    font-size: 1.2rem;
+}
+
+h1, h2, h3 {
+    font-weight: 700;
+}
+
+/* Author Section */
+.author-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.author-item {
+    text-align: center;
+    width: 220px;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+    margin: 10px;
+    transition: transform 0.3s ease;
+}
+
+.author-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+.author-img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+/* Button styles */
+.btn-custom {
+    background-color: #008C8C;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+}
+
+.btn-custom:hover {
+    background-color: #008C8C;
+}
+
+/* Style for the Google Material Icon */
+.material-icons.md-48 {
+    font-size: 48px;
+    color: #008C8C;
+    margin-right: 20px;
+}
+.material-symbols-outlined{
+    font-size: 70px;
+    color: #008C8C;
+    margin-right: 20px;
+}
+
+p .material-symbols-outlined{
+    margin-right: 5px; /* Space between the icon and text */ 
+    display: inline-block; /* Make the icon an inline block */
+    vertical-align: middle; /* Align vertically in the middle */
+    margin-right: 5px; /* Space between the icon and text */
+}
+
+.aligned-text {
+    display: inline-block; /* Treat the paragraph as inline-block */
+    vertical-align: middle; /* Align vertically in the middle */
+}
+
+/*Navbar */
+/* Fixed navbar at the top */
+.navbar {
+position: fixed;
+top: 0;
+width: 100%;
+z-index: 1000;
+}
+
+/* Logo Styling */
+.navbar-brand img {
+height: 40px;
+margin-right: 10px;
+}
+
+/* Navbar background, shadow, and link styling */
+.navbar-light {
+background-color: #fff;
+box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.nav-link {
+color: #4a4a4a !important;
+font-weight: 600;
+font-size: 1rem;
+margin-right: 15px;
+}
+
+.nav-link:hover {
+color: #008C8C !important;
+}
+
+.dropdown-menu {
+background-color: #ffffff;
+border: 1px solid #ddd;
+}
+
+.dropdown-item:hover {
+background-color: #f6f7f9;
+}
+
+.icon-text {
+display: flex; /* Use flexbox */
+align-items: center; /* Center items vertically */
+}
+
+.icon-text2 {
+align-items: center;
+}
+    
+.icon-text i {
+    margin-right: 10px; /* Space between icon and text */
+}
+    
+/*authors*/
+
+.author-list a {
+    text-decoration: none;
+}
+
+.author-list a:hover {
+    text-decoration: none;
+}
+
+/*404*/
+
+.error-container {
+    padding-top: 2%;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.error-code {
+    font-size: 96px;
+    font-weight: 700;
+    color: #008C8C;
+    text-align: center;
+}
+
+.error-message {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+
+/*Fonts*/
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+p, a {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+/*Text hover*/
+
+.hover-text {
+    display: none; /* Hide the text by default */
+    margin-left: 5px; /* Space between icon and text */
+    background-color: #f6f7f9; /* Light gray background with some transparency */
+    padding: 5px; /* Padding around the text */
+    border-radius: 4px; /* Optional: rounded corners */
+    position: relative; /* Necessary for z-index */
+    z-index: 1; /* Bring the text above other elements */
+}
+
+.material-symbols-outlined:hover + .hover-text {
+    display: inline; /* Show the text when hovering over the icon */
+}
+
+.flex-container {
+    display: flex; /* Use flexbox for alignment */
+    align-items: center; /* Align items vertically center */
+}
+
+.flex-container p {
+    margin-right: 15px; /* Optional: Add space between paragraphs */
+}
+
+
+.icon-hint {
+    position: relative; /* Position relative for tooltip positioning */
+    display: inline-flex; /* Use flexbox for alignment */
+    align-items: center; /* Center icon and text */
+    cursor: pointer; /* Change cursor to pointer */
+}
+
+.material-symbols-outlined {
+    margin-right: 8px; /* Space between the icon and text */
+}
+
