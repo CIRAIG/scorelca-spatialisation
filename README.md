@@ -1,6 +1,6 @@
 # Supporting figures for “Spatialisation des impacts en ACV”
 
-This webpage provides supporting figures for the report “Spatialisation des impacts en ACV”, commissioned by [ScoreLCA](https://scorelca.org/en/index.php) and realised by [CIRAIG](https://ciraig.org/).
+This webpage provides supporting figures for the report **“Spatialisation des impacts en ACV”**, commissioned by [**ScoreLCA**](https://scorelca.org/en/index.php) and realised by [**CIRAIG**](https://ciraig.org/).
 
 *The link to the report will be added here once it is publicly available*.
 
@@ -8,4 +8,4 @@ This webpage provides supporting figures for the report “Spatialisation des im
 The main goal of the project was to evaluate the spatialization of impacts in Life Cycle Assessment (LCA) by reviewing current methods, conducting a case study, and providing practical recommendations for LCA practitioners and developers.
 
 ## Content
-You can access the webpage using the following link: [link]()
+You can access the webpage using the following link: [link](https://ciraig.github.io/scorelca-spatialisation)
