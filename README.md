@@ -1,6 +1,6 @@
 # Supporting figures for “Spatialisation des impacts en ACV”
 
-This webpage provides supporting figures for the report “Spatialisation des impacts en ACV,” commissioned by [ScoreLCA](https://scorelca.org/en/index.php) and realised by [CIRAIG](https://ciraig.org/).
+This webpage provides supporting figures for the report “Spatialisation des impacts en ACV”, commissioned by [ScoreLCA](https://scorelca.org/en/index.php) and realised by [CIRAIG](https://ciraig.org/).
 
 *The link to the report will be added here once it is publicly available*.
 
